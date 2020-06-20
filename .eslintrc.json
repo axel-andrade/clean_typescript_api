@@ -1,7 +1,8 @@
 {
     "env": {
         "browser": true,
-        "es2020": true
+        "es2020": true,
+        "jest": true
     },
     "extends": [
         "standard"
@@ -15,5 +16,10 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "@typescript-eslint/consistent-type-definitions": "off",
+        "@typescript-eslint/comma-spacing": "off",
+        "@typescript-eslint/return-await": "off",
+        "@typescript-eslint/restrict-template-expressions": "off"
     }
 }

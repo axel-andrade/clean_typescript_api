@@ -3,7 +3,17 @@
     "files.associations": {},
     "files.autoSave": "afterDelay",
     "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.organizeImports": false
+    },
     "[typescript]": {
+        "editor.formatOnSave": false,
+    },
+    "[javascript]": {
         "editor.formatOnSave": false
-    }
+    },
+    "eslint.packageManager": "npm",
+    "eslint.format.enable": true,
+    "eslint.alwaysShowStatus": true,
 }
