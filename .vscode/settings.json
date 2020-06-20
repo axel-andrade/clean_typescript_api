@@ -1,0 +1,9 @@
+{
+    "deno.enable": false,
+    "files.associations": {},
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    "[typescript]": {
+        "editor.formatOnSave": false
+    }
+}
